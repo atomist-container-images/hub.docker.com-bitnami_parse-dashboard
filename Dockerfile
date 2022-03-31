@@ -5,14 +5,17 @@ FROM bitnami/parse-dashboard:4.0.1
 FROM bitnami/parse-dashboard:4-debian-10
 FROM bitnami/parse-dashboard:4
 
-# Tags: _
-FROM bitnami/parse-dashboard:_
-
-# Tags: 3.3.0-debian-10-r85, 3.3.0, 3-debian-10, 3
-FROM bitnami/parse-dashboard:3.3.0-debian-10-r85
+# Tags: 3.3.0-debian-10-r86, 3.3.0, 3-debian-10, 3
+FROM bitnami/parse-dashboard:3.3.0-debian-10-r86
 FROM bitnami/parse-dashboard:3.3.0
 FROM bitnami/parse-dashboard:3-debian-10
 FROM bitnami/parse-dashboard:3
+
+# Tags: _
+FROM bitnami/parse-dashboard:_
+
+# Tags: 3.3.0-debian-10-r85
+FROM bitnami/parse-dashboard:3.3.0-debian-10-r85
 
 # Tags: 4.0.1-debian-10-r9
 FROM bitnami/parse-dashboard:4.0.1-debian-10-r9
