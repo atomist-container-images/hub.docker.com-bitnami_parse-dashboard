@@ -1,6 +1,6 @@
-# Tags: latest, 4.1.0-debian-10-r23, 4.1.0, 4-debian-10, 4
+# Tags: latest, 4.1.0-debian-10-r26, 4.1.0, 4-debian-10, 4
 FROM bitnami/parse-dashboard:latest
-FROM bitnami/parse-dashboard:4.1.0-debian-10-r23
+FROM bitnami/parse-dashboard:4.1.0-debian-10-r26
 FROM bitnami/parse-dashboard:4.1.0
 FROM bitnami/parse-dashboard:4-debian-10
 FROM bitnami/parse-dashboard:4
@@ -8,11 +8,29 @@ FROM bitnami/parse-dashboard:4
 # Tags: _
 FROM bitnami/parse-dashboard:_
 
-# Tags: 3.3.0-debian-10-r113, 3.3.0, 3-debian-10, 3
-FROM bitnami/parse-dashboard:3.3.0-debian-10-r113
+# Tags: 3.3.0-debian-10-r116, 3.3.0, 3-debian-10, 3
+FROM bitnami/parse-dashboard:3.3.0-debian-10-r116
 FROM bitnami/parse-dashboard:3.3.0
 FROM bitnami/parse-dashboard:3-debian-10
 FROM bitnami/parse-dashboard:3
+
+# Tags: 4.1.0-debian-10-r25
+FROM bitnami/parse-dashboard:4.1.0-debian-10-r25
+
+# Tags: 3.3.0-debian-10-r115
+FROM bitnami/parse-dashboard:3.3.0-debian-10-r115
+
+# Tags: 4.1.0-debian-10-r24
+FROM bitnami/parse-dashboard:4.1.0-debian-10-r24
+
+# Tags: 3.3.0-debian-10-r114
+FROM bitnami/parse-dashboard:3.3.0-debian-10-r114
+
+# Tags: 4.1.0-debian-10-r23
+FROM bitnami/parse-dashboard:4.1.0-debian-10-r23
+
+# Tags: 3.3.0-debian-10-r113
+FROM bitnami/parse-dashboard:3.3.0-debian-10-r113
 
 # Tags: 4.1.0-debian-10-r22
 FROM bitnami/parse-dashboard:4.1.0-debian-10-r22
@@ -164,30 +182,3 @@ FROM bitnami/parse-dashboard:3.3.0-debian-10-r89
 
 # Tags: 4.0.1-debian-10-r13
 FROM bitnami/parse-dashboard:4.0.1-debian-10-r13
-
-# Tags: 3.3.0-debian-10-r88
-FROM bitnami/parse-dashboard:3.3.0-debian-10-r88
-
-# Tags: 4.0.1-debian-10-r12
-FROM bitnami/parse-dashboard:4.0.1-debian-10-r12
-
-# Tags: 3.3.0-debian-10-r87
-FROM bitnami/parse-dashboard:3.3.0-debian-10-r87
-
-# Tags: 4.0.1-debian-10-r11
-FROM bitnami/parse-dashboard:4.0.1-debian-10-r11
-
-# Tags: 3.3.0-debian-10-r86
-FROM bitnami/parse-dashboard:3.3.0-debian-10-r86
-
-# Tags: 4.0.1-debian-10-r10
-FROM bitnami/parse-dashboard:4.0.1-debian-10-r10
-
-# Tags: 3.3.0-debian-10-r85
-FROM bitnami/parse-dashboard:3.3.0-debian-10-r85
-
-# Tags: 4.0.1-debian-10-r9
-FROM bitnami/parse-dashboard:4.0.1-debian-10-r9
-
-# Tags: 3.3.0-debian-10-r84
-FROM bitnami/parse-dashboard:3.3.0-debian-10-r84
