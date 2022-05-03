@@ -1,6 +1,6 @@
-# Tags: latest, 4.1.0-debian-10-r26, 4.1.0, 4-debian-10, 4
+# Tags: latest, 4.1.0-debian-10-r27, 4.1.0, 4-debian-10, 4
 FROM bitnami/parse-dashboard:latest
-FROM bitnami/parse-dashboard:4.1.0-debian-10-r26
+FROM bitnami/parse-dashboard:4.1.0-debian-10-r27
 FROM bitnami/parse-dashboard:4.1.0
 FROM bitnami/parse-dashboard:4-debian-10
 FROM bitnami/parse-dashboard:4
@@ -8,11 +8,17 @@ FROM bitnami/parse-dashboard:4
 # Tags: _
 FROM bitnami/parse-dashboard:_
 
-# Tags: 3.3.0-debian-10-r116, 3.3.0, 3-debian-10, 3
-FROM bitnami/parse-dashboard:3.3.0-debian-10-r116
+# Tags: 3.3.0-debian-10-r117, 3.3.0, 3-debian-10, 3
+FROM bitnami/parse-dashboard:3.3.0-debian-10-r117
 FROM bitnami/parse-dashboard:3.3.0
 FROM bitnami/parse-dashboard:3-debian-10
 FROM bitnami/parse-dashboard:3
+
+# Tags: 4.1.0-debian-10-r26
+FROM bitnami/parse-dashboard:4.1.0-debian-10-r26
+
+# Tags: 3.3.0-debian-10-r116
+FROM bitnami/parse-dashboard:3.3.0-debian-10-r116
 
 # Tags: 4.1.0-debian-10-r25
 FROM bitnami/parse-dashboard:4.1.0-debian-10-r25
@@ -179,6 +185,3 @@ FROM bitnami/parse-dashboard:4.0.1-debian-10-r14
 
 # Tags: 3.3.0-debian-10-r89
 FROM bitnami/parse-dashboard:3.3.0-debian-10-r89
-
-# Tags: 4.0.1-debian-10-r13
-FROM bitnami/parse-dashboard:4.0.1-debian-10-r13
